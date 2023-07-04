@@ -21,18 +21,25 @@ body {
     width: 200px;
     height:auto;
     margin-left: 50px;
+    margin-top: 30px;
 }
 #menu {
     font-size: 110%;
-    text-transform: uppercase;
     letter-spacing: 4px;
+    color: white;
+    font-weight: 400px;
 }
 #menu li{
     float: right;
     background-color: #3AA6B9;
-    padding: 5px;
+    padding: 8px;
     margin-right: 30px;
+    margin-top: 80px;
     text-align: center;
     list-style-type:none;
-    border-radius: 5px;
+    border-radius: 10px;
+}
+#menu a{
+    text-decoration: none;
+    color: white;
 }
