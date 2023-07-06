@@ -43,3 +43,43 @@ body {
     text-decoration: none;
     color: white;
 }
+.container {
+    padding: 0;
+}
+.slider-wrapper {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.slider {
+    display: flex;
+    aspect-ratio: 16/9;
+    overflow-x: auto;
+    scroll-snap-type: mandatory;
+    scroll-behavior: smooth;
+}
+.slider img {
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+}
+.slider-nav {
+    display: flex;
+    column-gap: 30px;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%)
+    z-index 1;
+}
+.slider-nav a {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #FF9EAA;
+    opacity: 0.75;
+    transition: opacity ease 250 ms;
+}
+.slider-nav a:hover {
+    opacity: 1;
+}
