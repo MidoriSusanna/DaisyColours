@@ -93,10 +93,8 @@ header {
 .container2 {
     background-color: #FFD0D0;
     padding: 0;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+    width: 100%;
+    height: 500px;
 }
 .core-principles h1 {
     color: #3AA6B9;
@@ -110,18 +108,14 @@ header {
 .core-principles p{
     color: #3AA6B9;
 }
-#left-content {
-    padding-top: 30px;
-    width: 20%;
-    float:left;
-}
-#center-content {
-    padding-top: 30px;
-    width: 20%;
-    margin: 0 auto;
-}
-#right-content {
-    padding-top: 30px;
-    width: 20%;
-    float:right;
-}
+
+.grid-container {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  }
+  .grid-item {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
