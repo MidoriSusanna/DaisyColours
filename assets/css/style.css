@@ -104,18 +104,26 @@ header {
 }
 .core-principles h1,h2{
     color: #3AA6B9;
+    margin-bottom: 15px;
 }
 .core-principles p{
     color: #3AA6B9;
+    font-size: 18px;
 }
+.container2 #main-title {
+    color: #3AA6B9;
+    text-align: center;
+    font-weight: 300px;
+    margin-top: 50px !important; 
+  }
 
 .grid-container {
     display: inline-grid;
     grid-template-columns: auto auto auto;
+    column-gap: 20px;
     padding: 10px;
   }
   .grid-item {
     padding: 20px;
-    font-size: 30px;
     text-align: center;
   }
