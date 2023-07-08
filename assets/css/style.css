@@ -135,25 +135,27 @@ header {
     grid-template-columns: repeat(3, 1fr);
     background-color: #C1ECE4;
     padding-top: 20px;
-    position: relative;
   }
   .grid-item2 {
     padding: 20px;
     height: auto;
     overflow: hidden;
     clear:both;
+    position: relative;
   }
   .image__img {
     display: block;
     width: 100%;
   }
-  .image__overlay1 {
+  .grid-item2 .image__overlay1 {
     position:absolute;
     top:0;
     left:0;
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-family: 'Manrope', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -161,11 +163,13 @@ header {
     opacity:0;
     transition:opacity 0.25s;
 }
-.image__overlay2 {
+.grid-item2 .image__overlay2 {
     position:absolute;
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-family: 'Manrope', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -173,13 +177,15 @@ header {
     opacity:0;
     transition:opacity 0.25s;
 }
-.image__overlay3 {
+.grid-item2 .image__overlay3 {
     position:absolute;
     right:0;
     top:0;
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-family: 'Manrope', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
