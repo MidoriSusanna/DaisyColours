@@ -237,5 +237,56 @@ header {
     padding: 5%;
     color: #3AA6B9;
  }
+#adult-courses {
+    background-color: #FFD0D0;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+ }
+#adult-title {
+    font-size: 30px;
+ }
+#adult-c__par{
+    font-size: 16px;
+    margin-right: 40px;
+    text-align: justify;
+    margin-bottom: 40px;
+ }
+#adult-image {
+    float: left;
+    margin: 20px;
+    width: 300px;
+    height:auto;
+    position: relative;
+ }
+ #kid-courses {
+    background-color: #C1ECE4;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+ }
+#kid-title {
+    font-size: 30px;
+    margin-left: 20px;
+ }
+#kid-courses h2 {
+    margin-left: 20px;
+ }
 
+#kid-c__par{
+    font-size: 16px;
+    margin-right: 40px;
+    margin-left: 20px;
+    text-align: justify;
+    margin-bottom: 40px;
+ }
+#kid-image {
+    float: right;
+    margin: 20px;
+    width: 300px;
+    height: auto;
+    position: relative;
+ }
 
