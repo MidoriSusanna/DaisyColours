@@ -345,8 +345,15 @@ header {
 
 .form-section {
     clear: left;
-    background-image: url("background.jpg");
+    background-image: url('../images/background.jpg');
     background-size: cover;
     background-position: center;
     height: 900px;
+}
+#form-fill {
+    float: left;
+    width: 50%;
+    height: auto;
+    background-color: #FFD0D0;
+    margin: 50px 0px 0px 20px;
 }
