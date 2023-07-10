@@ -142,7 +142,7 @@ header {
     padding-bottom: 30px;
   }
   .grid-item2 {
-    padding: 20px;
+    margin: 20px;
     height: auto;
     overflow: hidden;
     clear:both;
@@ -223,7 +223,7 @@ header {
     font-family: 'Manrope', sans-serif;
   }
   footer {
-    height: 100px;
+    height: 80px;
  }
  .social-networks {
     text-align: center;
@@ -260,6 +260,14 @@ header {
     height:auto;
     position: relative;
  }
+ #adult-c__aside {
+    float: right;
+    background-color: #FF9EAA;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5%;
+    margin-right: 40px;
+ }
+
  #kid-courses {
     background-color: #C1ECE4;
     height: auto;
@@ -289,4 +297,56 @@ header {
     height: auto;
     position: relative;
  }
+ #kid-c__aside {
+    float: left;
+    background-color: #3AA6B9;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5%;
+    margin-right: 20px;
+ }
+ #portfolio-courses {
+    background-color: #FFD0D0;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px; 
+ }
+#portfolio-title {
+    font-size: 30px;
+    margin-left: 20px;
+ }
+#portoflio-course h2 {
+    margin-left: 20px;
+ }
 
+#portfolio-c__par{
+    font-size: 16px;
+    margin-right: 40px;
+    margin-left: 20px;
+    text-align: justify;
+    margin-bottom: 40px;
+ }
+#portfolio-image {
+    float: left;
+    margin: 20px;
+    width: 300px;
+    height: auto;
+    position: relative;
+ }
+
+ #portfolio-c__aside {
+    float: right;
+    background-color: #FF9EAA;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5%;
+    margin-right: 40px;
+ }
+
+/* Form */
+
+.form-section {
+    clear: left;
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
