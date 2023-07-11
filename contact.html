@@ -23,32 +23,53 @@
         <div id="form-fill">
         <form method="POST" action="https://formdump.codeinstitute.net/">
             <h2>Contact us for more information </h2>
-            
-        <label for="fname">First Name</label>
-        <input type="text" id="fname" name="first_name" required>
+        <div class="row">    
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="first_name" placeholder=" Daria" required>
+        </div>
         
-        <label for="lname">Last Name</label>
-        <input type="text" id="lname" name="last_name" required>
+        <div class="row">
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="last_name" placeholder=" Marshall" required>
+        </div>
         
-        <label for="email">Email Address</label>
-        <input type="email" id="email" name="email_address" required>
+        <div class="row">
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email_address" placeholder=" daria.marshall@gmail.com" required>
+        </div>
     
     <br>
     <br>
     
     <h2>Please specify the course you’re interested in:</h2>
         
+        <div class="row">
         <label for="Adult">Adult Courses</label>
         <input type="radio" id="adult-cf" name="course_preference" value="adult" required>
-      
+        </div>
+         
+        <div class="row">
         <label for="Kid">Kids Courses</label>
         <input type="radio" id="kid-cf" name="course_preference" value="kid">
+        </div>
       
+        <div class="row">
         <label for="Portfolio">Portfolio & Media Course</label>
         <input type="radio" id="portfolio-cf" name="course_preference" value="portfolio">
+        </div>
     <br>
     <br>
-        <input type="submit" value="Get in touch">
+    
+    <h2>Leave a message and we will be happy to assist you:</h2>
+    <textarea id="message" name="message" placeholder="Write here your message."></textarea>
+    <br>
+    <br>
+    <label for="checkbox"> By checking this box I agree with the privacy policy: </label>
+    <input type="checkbox" id="check" name="check" value="privacy" required>
+    <br>
+    <br>
+
+        <input class="submit" type="submit" value="Get in touch">
         </form>
         </div>
         

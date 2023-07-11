@@ -222,6 +222,10 @@ header {
     margin-top: 10px;
     font-family: 'Manrope', sans-serif;
   }
+  .image__title a, .image__description a {
+    color: white;
+    text-decoration: none;
+}
   footer {
     height: 80px;
  }
@@ -352,8 +356,36 @@ header {
 }
 #form-fill {
     float: left;
-    width: 50%;
+    width: 45%;
     height: auto;
     background-color: #FFD0D0;
     margin: 50px 0px 0px 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    border-radius: 5%;
+}
+
+.submit{
+    float: center;
+    color: white;
+    background-color: #FF9EAA;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10%;
+    font-family: 'Diphylleia', serif;
+    font-size: 20px;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: right;
+    margin-bottom: 10px;
+}
+input[type="text"], input[type="email"] {
+    width: 200px;
+}
+#message {
+    width: 60%;
+    height: 200px;
 }
