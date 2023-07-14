@@ -1,39 +1,69 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+<h1>DaisyColours</h1>
+<br>
+<p> DaisyColours is a website of an art school providing art courses for adult, kids and families. It offers also a course dedicated to improving your social media presence online as an artist and/or preparing your digital portfolio. The target audience of this website is divided in three sectors:
+1. Adults who wish to practice the art in an amateur way
+2. Kids inetersted in playing with other kids of the same age through art
+3. Families interested in bonding with their kids through art and playing
+4. Adult amateurs artist interested in creating a social media presence and kickstarting their small business
+<br>
+The websiete is dedicated to private costumers (B2C) and the aim is providing information about the school courses in a simple and effective way. 
+</p>
 
-Welcome,
+<h1>Features </h1>
+The website consists in 3 essential pages and the user can easily navigate through them via the navigation bar and the clickable links in the homepage. 
+The homepage provides an initial idea of the art school, the core principles of it and a preview of the courses. 
+The course page provides useful information about the content of the courses, start dates, time, costs.
+The contact us page is a useful tool for the user to get quickly in touch with the school and express interest in a course. The enolment process ideally takes place outside the website and via email correspondence with the school, to privilage direct contact between customers and business and to provide a tailor-made service. Also, to be able to manage course availability issues in a simplier way for a small business.
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+<h2>Homepage</h2>
+<br>
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 11th, 2023**
+<h2>Navigation bar</h2>
+<p>Featured on all three pages, the navigation bar includes the Logo, Home page, Courses page and Contact us page and is identical in each page to allow easy navigation. This section will allow the user to easily navigate from page to page without having to revert back to the previous page via the ‘back’ button. By hovering onto the buttons, the colour change to provide the clear idea of interactivity. </p>
+<h2>Hero images with slider - Landing page</h2>
+<p>The first impression of the customer needs to be the idea of what the school is in essential. The slider allows the user to have a simple visual idea of what the school provides. It comes before the core principles to impress the customer visually and catch their attention.</p>
+<h2>Core Principles</h2>
+<p>Brief explanation of the core principles of the school, simple section to provide a general idea of what the school does.</p>
+<h2>Course Preview</h2>
+<p>The Course preview section links the homepage to the course section, giving the possibility to the use of focusing on the specific course they are looking for. By hovering over the image, an overlay is applied to make the title of the course readable. </p>
+<h2>Footer</h2>
+<p>Featured on all three pages, the footer section includes the clickable social media icons of the school.</p>
 
-## Codeanywhere Reminders
+<h2>Course Page</h2>
+<br>
+<h2>Sections and summary element</h2>
+<p>Each section is related to a specific course. There is a brief description and the possibility of getting to know more information through the details and summary element. This way the information is delivered is a structured way to the user and it is easily accessible due to the division in sections and summaries.</p>
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+<h2>Contact us</h2>
+<br>
+<h2>Form</h2>
+<p>The form is an essential tool to connect with the business. It guides the user to their course of interest and trough the booking process. The form is structures with required input boxes for name, surname and address, to allow the company saving these information for future contacts/campaigns. With the radio buttons it is required to specify the course of interest, to focus the attention on a specific course. The textarea element is the space where the user can add a specific enquiry. The checkboks is to make sure the user is aware of the privacy policy of the company and collection of data, it is therefore a required box to tick.</p>
 
-`python3 -m http.server`
+<h1>Testing</h1>
+<h1>Deployment</h1>
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+<h1>Credits</h1>
+<br>
+<h2>Design and colours</h2>
+<p>Colour palette: https://colorhunt.co
+Project of wireframe and logo through Adobe Indesign
+Icons: https://fontawesome.com
+Fonts: https://fonts.google.com</p>
+<h2>Contents</h2>
+<p>Text by me and corrected (English mistakes, vocabulary) with DeepL and ChatGPT.
+Pictures from those open souce websites:
+https://unsplash.com
+https://www.pexels.com
+</p>
+<h2>Code and Layout</h2>
+<p>
+Style navigation bar: https://www.youtube.com/watch?v=5Ym3ZkRYfN0
+Slider with only HTML and CSS: https://www.youtube.com/watch?v=McPdzhLRzCg
+Overlay: https://www.youtube.com/watch?v=exb2ab72Xhs&t=3s
+Use of the flexbox: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+Use of grids: https://www.w3schools.com/css/css_grid.asp
+The student support has been incredibly helpful
+Some references are from the Essential Love Running previous Project
+</p>
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
 
-`http_server`
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
