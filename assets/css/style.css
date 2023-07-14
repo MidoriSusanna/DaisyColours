@@ -21,11 +21,16 @@ header {
 }
 
 #logo {
-    float:left;
-    width: 350px;
-    height:auto;
+    text-align:left;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 50px;
     margin-left: 20px;
-    margin-top: 50px;
+    margin-top: 20px;
+}
+#logo a {
+    text-decoration: none;
+    color: #3AA6B9;
 }
 #menu {
     font-size: 110%;
@@ -38,7 +43,8 @@ header {
     background-color: #3AA6B9;
     padding: 8px;
     margin-right: 20px;
-    margin-top: 60px;
+    margin-top: none;
+    margin-bottom: 40px;
     text-align: center;
     list-style-type:none;
     border-radius: 10px;
