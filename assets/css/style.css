@@ -265,11 +265,10 @@ header {
     position: relative;
  }
  #adult-c__aside {
-    float: right;
+    width: 100%;
+    float: left;
     background-color: #FF9EAA;
     padding: 10px 10px 10px 10px;
-    border-radius: 5%;
-    margin-right: 40px;
  }
 
  #kid-courses {
@@ -302,10 +301,10 @@ header {
     position: relative;
  }
  #kid-c__aside {
+    width: 100%;
     float: left;
     background-color: #3AA6B9;
     padding: 10px 10px 10px 10px;
-    border-radius: 5%;
     margin-right: 20px;
  }
  #portfolio-courses {
@@ -338,10 +337,10 @@ header {
  }
 
  #portfolio-c__aside {
-    float: right;
+    width: 100%;
+    float: left;
     background-color: #FF9EAA;
     padding: 10px 10px 10px 10px;
-    border-radius: 5%;
     margin-right: 40px;
  }
 
