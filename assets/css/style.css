@@ -241,7 +241,9 @@ header {
     padding: 5%;
     color: #3AA6B9;
  }
-#adult-courses {
+#adult-div {
+    display: flex;
+    flex-wrap: wrap;
     background-color: #FFD0D0;
     height: auto;
     padding-top: 20px;
@@ -265,7 +267,9 @@ header {
     position: relative;
  }
 
- #kid-courses {
+ #kid-div {
+    display: flex;
+    flex-wrap: wrap;
     background-color: #C1ECE4;
     height: auto;
     padding-top: 20px;
@@ -294,7 +298,9 @@ header {
     height: auto;
     position: relative;
  }
- #portfolio-courses {
+ #portfolio-div {
+    display: flex;
+    flex-wrap: wrap;
     background-color: #FFD0D0;
     height: auto;
     padding-top: 20px;
@@ -322,13 +328,19 @@ header {
     height: auto;
     position: relative;
  }
-.summary {
-    text-align: center !important;
-    text-transform: uppercase !important;
+#summary_item1, #summary_item2, #summary_item3 {
+    margin-left: 20px;
+    text-transform: uppercase;
+ }
+#summary_item1, #summary_item3 {
+    background-color: #FF9EAA;
+    padding: 10px 10px 10px 10px;
+ }
+ #summary_item2 {
+    background-color: #3AA6B9;
+    padding: 10px 10px 10px 10px;
  }
 
-
-/* Form */
 
 .form-section {
     clear: left;
