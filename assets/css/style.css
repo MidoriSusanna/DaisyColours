@@ -252,7 +252,7 @@ header {
     color: #3AA6B9;
  }
 #adult-div {
-    display: flex;
+    display: inline-flex;
     flex-wrap: wrap;
     background-color: #FFD0D0;
     height: auto;
@@ -266,6 +266,7 @@ header {
 #adult-c__par{
     font-size: 16px;
     margin-right: 40px;
+    margin-left: 20px;
     text-align: justify;
     margin-bottom: 40px;
  }
