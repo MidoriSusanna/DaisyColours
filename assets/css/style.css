@@ -264,12 +264,6 @@ header {
     height:auto;
     position: relative;
  }
- #adult-c__aside {
-    width: 100%;
-    float: left;
-    background-color: #FF9EAA;
-    padding: 10px 10px 10px 10px;
- }
 
  #kid-courses {
     background-color: #C1ECE4;
@@ -300,13 +294,6 @@ header {
     height: auto;
     position: relative;
  }
- #kid-c__aside {
-    width: 100%;
-    float: left;
-    background-color: #3AA6B9;
-    padding: 10px 10px 10px 10px;
-    margin-right: 20px;
- }
  #portfolio-courses {
     background-color: #FFD0D0;
     height: auto;
@@ -335,14 +322,11 @@ header {
     height: auto;
     position: relative;
  }
-
- #portfolio-c__aside {
-    width: 100%;
-    float: left;
-    background-color: #FF9EAA;
-    padding: 10px 10px 10px 10px;
-    margin-right: 40px;
+.summary {
+    text-align: center !important;
+    text-transform: uppercase !important;
  }
+
 
 /* Form */
 
