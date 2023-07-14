@@ -42,6 +42,9 @@ The contact us page is a useful tool for the user to get quickly in touch with t
 <h2>Design and colours</h2>
 <p>Colour palette: https://colorhunt.co <br>
 Project of wireframe and logo through Adobe Indesign <br>
+<image src="./assets/images/wireframe1.png">
+<image src="./assets/images/wireframe2.jpg">
+<image src="./assets/images/wireframe3.jpg">
 Icons: https://fontawesome.com <br>
 Fonts: https://fonts.google.com</p>
 <h2>Contents</h2>
