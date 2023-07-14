@@ -46,23 +46,23 @@ The contact us page is a useful tool for the user to get quickly in touch with t
 <image src="./assets/images/float property2.png">
 The flexbox allowed me to treat the image and paragraph section as a different item then the summary section and work out the position between each other. To do this I used the property wrap and display: flex for the container of the two items. 
 </p>
-<p>Another issue is related to the slider. 
-.slider {
-    display: flex;
-    aspect-ratio: 16/9 !important;
-    width: 100%;
-    height: 70vh;
-    overflow-x: auto;
-    scroll-snap-type: mandatory;
-    scroll-behavior: smooth;
-}
-.slider img {
-    width: 100%;
-    height: auto;
-    flex: 1 0 100%;
-    scroll-snap-align: start;
-    object-fit: cover;
-}
+<p>Another issue is related to the slider. <br>
+.slider { <br>
+    display: flex; <br>
+    aspect-ratio: 16/9 !important; <br>
+    width: 100%; <br>
+    height: 70vh; <br>
+    overflow-x: auto; <br>
+    scroll-snap-type: mandatory; <br>
+    scroll-behavior: smooth; <br>
+} <br>
+.slider img { <br>
+    width: 100%; <br>
+    height: auto; <br>
+    flex: 1 0 100%; <br>
+    scroll-snap-align: start; <br>
+    object-fit: cover; <br>
+} <br>
 The use of aspect-ration: 16/9 doesn't work on Safari. I tried to fix the issue adding these two new properties width: 100%; height: 70vh; <br>
 The slider now seems to be less responsive. 
 </p>
