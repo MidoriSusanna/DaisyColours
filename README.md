@@ -36,6 +36,16 @@ The contact us page is a useful tool for the user to get quickly in touch with t
 <p>The form is an essential tool to connect with the business. It guides the user to their course of interest and trough the booking process. The form is structures with required input boxes for name, surname and address, to allow the company saving these information for future contacts/campaigns. With the radio buttons it is required to specify the course of interest, to focus the attention on a specific course. The textarea element is the space where the user can add a specific enquiry. The checkboks is to make sure the user is aware of the privacy policy of the company and collection of data, it is therefore a required box to tick.</p>
 
 <h1>Testing</h1>
+<p>Some of my initial issues were related to the use of margins and paddings, I was able to solve those issues using them in the correct way and in the right context. Here are some examples of the errors showing while using those properties in an incorrect way or exchanging them:
+<image src="./assets/images/margin-padding.png">
+<image src="./assets/images/margin-padding3.png">
+<image src="./assets/images/margin-padding2.png">
+</p>
+<p>Another issue was the use of the properties float and clear for the layout of the "Courses" page. I have tried many times to reset the properties but it seemed like this was not the best solution for the page. Those were some of the layout problems I encountered trying to use float and clear property, the text wraps around the pictures and it is very tricky to work with the div elements:
+<image src="./assets/images/float property1.png">
+<image src="./assets/images/float property2.png">
+The flexbox allowed me to treat the image and paragraph section as a different item then the summary section and work out the position between each other. To do this I used the property wrap and display: flex for the container of the two items. 
+</p>
 <h1>Deployment</h1>
 
 <h1>Credits</h1>
