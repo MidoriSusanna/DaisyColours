@@ -90,6 +90,7 @@ Slider with only HTML and CSS: https://www.youtube.com/watch?v=McPdzhLRzCg <br>
 Overlay: https://www.youtube.com/watch?v=exb2ab72Xhs&t=3s <br>
 Use of the flexbox: https://css-tricks.com/snippets/css/a-guide-to-flexbox/ <br>
 Use of grids: https://www.w3schools.com/css/css_grid.asp <br>
+Media Queries: https://gist.github.com/gokulkrishh/242e68d1ee94ad05f488 <br>
 The student support has been incredibly helpful. <br>
 Some references are from the Essential Love Running previous Project. <br>
 </p>

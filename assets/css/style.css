@@ -36,14 +36,12 @@ header {
     font-size: 110%;
     letter-spacing: 4px;
     color: white;
-    font-weight: 400px;
 }
 #menu li{
     float: right;
     background-color: #3AA6B9;
     padding: 8px;
     margin-right: 20px;
-    margin-top: none;
     margin-bottom: 40px;
     text-align: center;
     list-style-type:none;
@@ -130,7 +128,6 @@ header {
     color: #3AA6B9;
     background-color: #FFD0D0;
     text-align: center;
-    font-weight: 300px;
     padding-top: 20px;
     
   }
@@ -224,7 +221,6 @@ header {
 
   .image__title {
     font-size: 30px;
-    font-weight: 300px;
     font-family: 'Diphylleia', serif;
   }
   .image__description {
@@ -431,7 +427,7 @@ input[type="text"], input[type="email"] {
         padding: 8px;
         margin-right: 20px;
         margin-top: 30px;
-        margin-bottom: 10pxpx;
+        margin-bottom: 10px;
         text-align: center;
         list-style-type:none;
         border-radius: 10px;
@@ -525,4 +521,66 @@ input[type="text"], input[type="email"] {
         border-radius: 10px;
     }
 }
-/* @media (min-width: 481px) and (max-width: 767px) */
+@media (min-width: 481px) and (max-width: 767px) {
+
+    .grid-container { 
+        display: block;
+        padding: 10px;  
+    }
+    .grid-container2 {
+        display: block;
+        background-color: #C1ECE4;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    #menu {
+        font-size: small;
+        letter-spacing: 2px;
+        color: white;
+    }
+    
+    #menu li {
+        float: right;
+        background-color: #3AA6B9;
+        padding: 8px;
+        margin-right: 20px;
+        margin-top: 40px;
+        margin-bottom: 5px;
+        text-align: center;
+        list-style-type:none;
+        border-radius: 10px;
+        }
+    .form-section {
+        clear: left;
+        background-image: url('../images/background.jpg');
+        background-size: cover;
+        background-position: center;
+        margin-top: 10px;
+        height: 1000px;
+    }
+    #form-fill {
+        float: left;
+        width: 70%;
+        height: auto;
+        background-color: #FFD0D0;
+        margin: 50px 0px 0px 20px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        padding-top: 10px;
+        border-radius: 5%;
+    }
+    .image__title {
+    text-align: center;
+
+    }
+    #menu li{
+        float: right;
+        background-color: #3AA6B9;
+        padding: 8px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+        list-style-type:none;
+        border-radius: 10px;
+    }
+}
