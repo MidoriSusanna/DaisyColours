@@ -37,7 +37,7 @@ The contact us page is a useful tool for the user to get quickly in touch with t
 
 <h1>Testing</h1>
 <p>Some of my initial issues were related to the use of margins and paddings, I was able to solve those issues using them in the correct way and in the right context. Here are some examples of the errors showing while using those properties in an incorrect way or exchanging them:
-<image src="./assets/images/margin-padding.png">
+<image src="./assets/images/margins-padding.png">
 <image src="./assets/images/margin-padding3.png">
 <image src="./assets/images/margin-padding2.png">
 </p>
@@ -68,15 +68,15 @@ The use of aspect-ration: 16/9 doesn't work on Safari. I tried to fix the issue 
 HTML Tested with:<br>
 https://validator.w3.org/nu/ <br>
 Fixed errors: <br><ul>
-<li>Input form: needs the labels to correspond the id.<li><br>
-<li>Removing a not necessary closing tag. <li><br>
+<li>Input form: needs the labels to correspond the id.<li>
+<li>Removing a not necessary closing tag. <li>
 </ul>
 
 CSS Tested with:<br>
 https://jigsaw.w3.org/css-validator/#validate_by_input <br>
 Fixed errors: <br><ul>
-<li>Removing the font-weight of 300px from the font Diphylleia because not supported.<li><br>
-<li>Correcting a margin<li><br>
+<li>Removing the font-weight of 300px from the font Diphylleia because not supported.<li>
+<li>Correcting a margin<li>
 </ul>
 
 </p>
