@@ -67,14 +67,14 @@ The use of aspect-ration: 16/9 doesn't work on Safari. I tried to fix the issue 
 
 HTML Tested with:<br>
 https://validator.w3.org/nu/ <br>
-Fixed errors: <br><ul>
+Fixed errors:<ul>
 <li>Input form: needs the labels to correspond the id.<li>
 <li>Removing a not necessary closing tag. <li>
 </ul>
 
 CSS Tested with:<br>
 https://jigsaw.w3.org/css-validator/#validate_by_input <br>
-Fixed errors: <br><ul>
+Fixed errors:<ul>
 <li>Removing the font-weight of 300px from the font Diphylleia because not supported.<li>
 <li>Correcting a margin<li>
 </ul>
