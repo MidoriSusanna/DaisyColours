@@ -1,9 +1,9 @@
 <h1>DaisyColours</h1>
 <br>
-<p> DaisyColours is a website of an art school providing art courses for adult, kids and families. It offers also a course dedicated to improving your social media presence online as an artist and/or preparing your digital portfolio. The target audience of this website is divided in three sectors:
-1. Adults who wish to practice the art in an amateur way
-2. Kids inetersted in playing with other kids of the same age through art
-3. Families interested in bonding with their kids through art and playing
+<p> DaisyColours is a website of an art school providing art courses for adult, kids and families. It offers also a course dedicated to improving your social media presence online as an artist and/or preparing your digital portfolio. The target audience of this website is divided in three sectors: <br>
+1. Adults who wish to practice the art in an amateur way <br>
+2. Kids inetersted in playing with other kids of the same age through art <br>
+3. Families interested in bonding with their kids through art and playing <br>
 4. Adult amateurs artist interested in creating a social media presence and kickstarting their small business
 <br>
 The websiete is dedicated to private costumers (B2C) and the aim is providing information about the school courses in a simple and effective way. 
@@ -64,17 +64,31 @@ The flexbox allowed me to treat the image and paragraph section as a different i
     object-fit: cover; <br>
 } <br>
 The use of aspect-ration: 16/9 doesn't work on Safari. I tried to fix the issue adding these two new properties width: 100%; height: 70vh; <br>
-The slider now seems to be less responsive. 
+
+HTML Tested with:<br>
+https://validator.w3.org/nu/ <br>
+Fixed errors: <br><ul>
+<li>Input form: needs the labels to correspond the id.<li><br>
+<li>Removing a not necessary closing tag. <li><br>
+</ul>
+
+CSS Tested with:<br>
+https://jigsaw.w3.org/css-validator/#validate_by_input <br>
+Fixed errors: <br><ul>
+<li>Removing the font-weight of 300px from the font Diphylleia because not supported.<li><br>
+<li>Correcting a margin<li><br>
+</ul>
+
 </p>
 <h1>Deployment</h1>
 
 <h1>Credits</h1>
 <h2>Design and colours</h2>
 <p>Colour palette: https://colorhunt.co <br>
-Project of wireframe and logo through Adobe Indesign <br>
+Project of wireframe and logo through Adobe Indesign. Project and logo development through palette colours: <br>
 <image src="./assets/images/wireframe1.png">
 <image src="./assets/images/wireframe2.jpg">
-<image src="./assets/images/wireframe3.jpg">
+<image src="./assets/images/wireframe3.jpg"> <br>
 Icons: https://fontawesome.com <br>
 Fonts: https://fonts.google.com</p>
 <h2>Contents</h2>
@@ -93,6 +107,7 @@ Use of grids: https://www.w3schools.com/css/css_grid.asp <br>
 Media Queries: https://gist.github.com/gokulkrishh/242e68d1ee94ad05f488 <br>
 The student support has been incredibly helpful. <br>
 Some references are from the Essential Love Running previous Project. <br>
+Thank you to my mentor for the avdice provided. 
 </p>
 
 
