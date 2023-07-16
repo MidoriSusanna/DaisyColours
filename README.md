@@ -65,19 +65,20 @@ The flexbox allowed me to treat the image and paragraph section as a different i
 } <br>
 The use of aspect-ration: 16/9 doesn't work on Safari. I tried to fix the issue adding these two new properties width: 100%; height: 70vh; <br>
 
+The major change made to the website for the media queries was related to the grid and container. The display changed from inline to block: <br>
+<image src="./assets/images/display-block.png"><br>
+
 HTML Tested with:<br>
 https://validator.w3.org/nu/ <br>
-Fixed errors:<ul>
-<li>Input form: needs the labels to correspond the id.<li>
-<li>Removing a not necessary closing tag. <li>
-</ul>
+Fixed errors:<br>
+- Input form: needs the labels to correspond the id.<br>
+- Removing a non necessary closing tag.<br>
 
 CSS Tested with:<br>
 https://jigsaw.w3.org/css-validator/#validate_by_input <br>
-Fixed errors:<ul>
-<li>Removing the font-weight of 300px from the font Diphylleia because not supported.<li>
-<li>Correcting a margin<li>
-</ul>
+Fixed errors:<br>
+- Removing the font-weight of 300px from the font Diphylleia because not supported.<br>
+- Correcting a margin.<br>
 
 </p>
 <h1>Deployment</h1>
