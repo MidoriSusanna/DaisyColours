@@ -1,13 +1,16 @@
 <h1>DaisyColours</h1>
 <br>
 <p> DaisyColours is a website of an art school providing art courses for adult, kids and families. It offers also a course dedicated to improving your social media presence online as an artist and/or preparing your digital portfolio. The target audience of this website is divided in three sectors: <br>
-1. Adults who wish to practice the art in an amateur way <br>
+1. Adults who wish to practice the art tecniques in an amateur way <br>
 2. Kids inetersted in playing with other kids of the same age through art <br>
 3. Families interested in bonding with their kids through art and playing <br>
 4. Adult amateurs artist interested in creating a social media presence and kickstarting their small business
 <br>
-The websiete is dedicated to private costumers (B2C) and the aim is providing information about the school courses in a simple and effective way. 
-</p>
+The website is dedicated to private costumers (B2C) and the aim is providing information about the school courses in a simple and effective way. 
+</p><br>
+<br>
+<image src="./assets/images/mockup.png"><br>
+
 
 <h1>Features </h1>
 The website consists in 3 essential pages and the user can easily navigate through them via the navigation bar and the clickable links in the homepage. 
@@ -88,7 +91,7 @@ https://jigsaw.w3.org/css-validator/#validate_by_input <br>
 Fixed errors:<br>
 - Removing the font-weight of 300px from the font Diphylleia because not supported.<br>
 - Correcting a margin set to none in the course page (not relevant).<br>
-- Remeving the float:center property to the.submit class, invalid value. <br>
+- Removing the float:center property to the.submit class, invalid value. <br>
 - Removing the value scroll-snap-type:mandatory from the .slider class, invalid value. <br>
 No more issues found, the code passed the validator with no errors.<br> 
 
@@ -119,6 +122,7 @@ Overlay: https://www.youtube.com/watch?v=exb2ab72Xhs&t=3s <br>
 Use of the flexbox: https://css-tricks.com/snippets/css/a-guide-to-flexbox/ <br>
 Use of grids: https://www.w3schools.com/css/css_grid.asp <br>
 Media Queries: https://gist.github.com/gokulkrishh/242e68d1ee94ad05f488 <br>
+Psd Mockup <a href="https://www.freepik.com/free-psd/isolated-tablet-laptop-smartphone-composition_40505824.htm#query=device%20mockup&position=0&from_view=keyword&track=ais">Image by Vectonauta</a> on Freepik <br>
 The student support has been incredibly helpful. <br>
 Some references are from the Essential Love Running previous Project. <br>
 Thank you to my mentor for the advice provided. 
