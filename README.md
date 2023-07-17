@@ -42,8 +42,8 @@ The contact us page is a useful tool for the user to get quickly in touch with t
 <image src="./assets/images/margin-padding2.png">
 </p>
 <p>Another issue was the use of the properties float and clear for the layout of the "Courses" page. I have tried many times to reset the properties but it seemed like this was not the best solution for the page. Those were some of the layout problems I encountered trying to use float and clear property, the text wraps around the pictures and it is very tricky to work with the div elements:
-<image src="./assets/images/float property1.png">
-<image src="./assets/images/float property2.png">
+<image src="./assets/images/float-property1.png">
+<image src="./assets/images/float-property2.png">
 The flexbox allowed me to treat the image and paragraph section as a different item then the summary section and work out the position between each other. To do this I used the property wrap and display: flex for the container of the two items. 
 </p>
 <p>Another issue is related to the slider. <br>
@@ -73,12 +73,17 @@ https://validator.w3.org/nu/ <br>
 Fixed errors:<br>
 - Input form: needs the labels to correspond the id.<br>
 - Removing a non necessary closing tag.<br>
+- Removing the width value from the img elements of the grid-item2 div. <br>
+No more issues found, the code passed the validator with no errors.<br> 
 
 CSS Tested with:<br>
 https://jigsaw.w3.org/css-validator/#validate_by_input <br>
 Fixed errors:<br>
 - Removing the font-weight of 300px from the font Diphylleia because not supported.<br>
-- Correcting a margin.<br>
+- Correcting a margin set to none in the course page (not relevant).<br>
+- Remeving the float:center property to the.submit class, non valid value. <br>
+No more issues found, the code passed the validator with no errors.<br> 
+
 
 </p>
 <h1>Deployment</h1>
