@@ -464,6 +464,33 @@ input[type="text"], input[type="email"] {
 #course_item1 h2{
     margin-left: 20px;
 }
+#adult_div {
+    width: 100vh;
+}
+#portfolio-div h2 {
+    margin-left: 20px;
+ }
+#adult-image {
+    float: left;
+    margin: 10px;
+    width: 300px;
+    height:auto;
+    position: relative;
+ }
+#kid-image {
+    float: right;
+    margin: 10px;
+    width: 300px;
+    height: auto;
+    position: relative;
+}
+#portfolio-image {
+    float: left;
+    margin: 10px;
+    width: 300px;
+    height: auto;
+    position: relative;
+ }
 
 }
 
