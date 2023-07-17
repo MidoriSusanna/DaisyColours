@@ -459,7 +459,9 @@ input[type="text"], input[type="email"] {
 }
 #adult-title {
     width: auto;
-    height: 200px;
+    margin-left: 20px;
+}
+#course_item1 h2{
     margin-left: 20px;
 }
 
