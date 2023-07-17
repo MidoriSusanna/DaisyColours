@@ -88,7 +88,8 @@ https://jigsaw.w3.org/css-validator/#validate_by_input <br>
 Fixed errors:<br>
 - Removing the font-weight of 300px from the font Diphylleia because not supported.<br>
 - Correcting a margin set to none in the course page (not relevant).<br>
-- Remeving the float:center property to the.submit class, non valid value. <br>
+- Remeving the float:center property to the.submit class, invalid value. <br>
+- Removing the value scroll-snap-type:mandatory from the .slider class, invalid value. <br>
 No more issues found, the code passed the validator with no errors.<br> 
 
 
@@ -120,7 +121,7 @@ Use of grids: https://www.w3schools.com/css/css_grid.asp <br>
 Media Queries: https://gist.github.com/gokulkrishh/242e68d1ee94ad05f488 <br>
 The student support has been incredibly helpful. <br>
 Some references are from the Essential Love Running previous Project. <br>
-Thank you to my mentor for the avdice provided. 
+Thank you to my mentor for the advice provided. 
 </p>
 
 
