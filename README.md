@@ -18,22 +18,29 @@ The contact us page is a useful tool for the user to get quickly in touch with t
 <h2>Homepage</h2>
 <h2>Navigation bar</h2>
 <p>Featured on all three pages, the navigation bar includes the Logo, Home page, Courses page and Contact us page and is identical in each page to allow easy navigation. This section will allow the user to easily navigate from page to page without having to revert back to the previous page via the ‘back’ button. By hovering onto the buttons, the colour change to provide the clear idea of interactivity. </p>
+<image src="./assets/images/nav-readme.png"><br>
 <h2>Hero images with slider - Landing page</h2>
 <p>The first impression of the customer needs to be the idea of what the school is in essential. The slider allows the user to have a simple visual idea of what the school provides. It comes before the core principles to impress the customer visually and catch their attention.</p>
+<image src="./assets/images/slider-readme.png"><br>
 <h2>Core Principles</h2>
 <p>Brief explanation of the core principles of the school, simple section to provide a general idea of what the school does.</p>
+<image src="./assets/images/cprinciples-readme.png"><br>
 <h2>Course Preview</h2>
 <p>The Course preview section links the homepage to the course section, giving the possibility to the use of focusing on the specific course they are looking for. By hovering over the image, an overlay is applied to make the title of the course readable. </p>
+<image src="./assets/images/cpreview-readme.png"><br>
 <h2>Footer</h2>
 <p>Featured on all three pages, the footer section includes the clickable social media icons of the school.</p>
+<image src="./assets/images/footer-readme.png"><br>
 
 <h2>Course Page</h2>
 <h2>Sections and summary element</h2>
 <p>Each section is related to a specific course. There is a brief description and the possibility of getting to know more information through the details and summary element. This way the information is delivered is a structured way to the user and it is easily accessible due to the division in sections and summaries.</p>
+<image src="./assets/images/summaries-readme.png"><br>
 
 <h2>Contact us</h2>
 <h2>Form</h2>
 <p>The form is an essential tool to connect with the business. It guides the user to their course of interest and trough the booking process. The form is structures with required input boxes for name, surname and address, to allow the company saving these information for future contacts/campaigns. With the radio buttons it is required to specify the course of interest, to focus the attention on a specific course. The textarea element is the space where the user can add a specific enquiry. The checkboks is to make sure the user is aware of the privacy policy of the company and collection of data, it is therefore a required box to tick.</p>
+<image src="./assets/images/form-readme.png"><br>
 
 <h1>Testing</h1>
 <p>Some of my initial issues were related to the use of margins and paddings, I was able to solve those issues using them in the correct way and in the right context. Here are some examples of the errors showing while using those properties in an incorrect way or exchanging them:
