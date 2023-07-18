@@ -96,9 +96,18 @@ Fixed errors:<br>
 - Removing the value scroll-snap-type:mandatory from the .slider class, invalid value. <br>
 No more issues found, the code passed the validator with no errors.<br> 
 
+<br>The website is responsive on different screen sizes, layout adapted to different media queries.<br>
+
 
 </p>
 <h1>Deployment</h1>
+The site was deployed to GitHub pages. The steps to deploy are as follows:<br>
+- In the GitHub repository, navigate to the Settings tab
+- Select Pages from the side bar
+- Deploy from main branch, refresh for the link 
+<br>
+The deployed website can be found at this link:
+
 
 <h1>Credits</h1>
 <h2>Design and colours</h2>
