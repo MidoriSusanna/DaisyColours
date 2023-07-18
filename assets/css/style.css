@@ -386,7 +386,7 @@ input[type="text"], input[type="email"] {
     width: 200px;
 }
 #message {
-    width: 60%;
+    width: 90%;
     height: 200px;
 }
 
@@ -470,21 +470,21 @@ input[type="text"], input[type="email"] {
 #adult-image {
     float: left;
     margin: 10px;
-    width: 300px;
+    width: 93%;
     height:auto;
     position: relative;
  }
 #kid-image {
     float: right;
     margin: 10px;
-    width: 300px;
+    width: 93%;
     height: auto;
     position: relative;
 }
 #portfolio-image {
     float: left;
     margin: 10px;
-    width: 300px;
+    width: 93%;
     height: auto;
     position: relative;
  }
