@@ -102,11 +102,11 @@ No more issues found, the code passed the validator with no errors.<br>
 </p>
 <h1>Deployment</h1>
 The site was deployed to GitHub pages. The steps to deploy are as follows:<br>
-- In the GitHub repository, navigate to the Settings tab
-- Select Pages from the side bar
-- Deploy from main branch, refresh for the link 
+- In the GitHub repository, navigate to the Settings tab <br>
+- Select Pages from the side bar <br>
+- Deploy from main branch, refresh for the link <br>
 <br>
-The deployed website can be found at this link:
+The deployed website can be found at this link: https://midorisusanna.github.io/DaisyColours/ <br>
 
 
 <h1>Credits</h1>
