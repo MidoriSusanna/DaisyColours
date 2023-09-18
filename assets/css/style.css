@@ -1,11 +1,11 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Diphylleia&family=Manrope:wght@200&display=swap');
 
+/*General*/
 *{  margin: 0;
     padding:0;
     border:none;
 }
-
 h1, h2 {
     font-family: 'Diphylleia', serif;
     font-weight:300;
@@ -15,11 +15,11 @@ body {
     font-family: 'Manrope', sans-serif;
     color:#333F48;
 }
+/*Header section*/
 header {
     width:100%;
     height: 150px;
 }
-
 #logo {
     text-align:left;
     text-transform: uppercase;
@@ -56,6 +56,7 @@ header {
     text-decoration: none;
     color: white;
 }
+/*Hero image and slider in index page*/
 .container {
     padding: 0;
 }
@@ -102,6 +103,7 @@ header {
 .slider-nav a:hover {
     opacity: 1;
 }
+/*Core principles in index page*/
 .container2 {
     background-color: #FFD0D0;
     padding: 0;
@@ -128,8 +130,7 @@ header {
     background-color: #FFD0D0;
     text-align: center;
     padding-top: 20px;
-    
-  }
+}
 .grid-container {
     display: inline-grid;
     grid-template-columns: auto auto auto;
@@ -140,6 +141,7 @@ header {
     padding: 20px;
     text-align: center;
   }
+/*Course preview in index page*/
 .grid-container2 {
     display: inline-grid;
     grid-template-columns: repeat(3, 1fr);
@@ -210,33 +212,33 @@ header {
 }
 .image__overlay1:hover {
     opacity:1;
-  }
+}
 .image__overlay2:hover {
     opacity:1;
-  }
-  .image__overlay3:hover {
+}
+.image__overlay3:hover {
     opacity:1;
-  }
-
-  .image__title {
+}
+.image__title {
     font-size: 30px;
     font-family: 'Diphylleia', serif;
-  }
-  .image__description {
+}
+.image__description {
     font-size: 16px;
     margin-top: 10px;
     font-family: 'Manrope', sans-serif;
-  }
-  .image__title a, .image__description a {
+}
+.image__title a, .image__description a {
     color: white;
     text-decoration: none;
 }
-  footer {
+/*Footer and social media icons*/
+footer {
     height: 80px;
- }
- .social-networks {
+}
+.social-networks {
     text-align: center;
- }
+}
 .social-networks > li {
    display: inline;
 }
@@ -245,7 +247,8 @@ header {
     margin: 1%;
     padding: 5%;
     color: #3AA6B9;
- }
+}
+/*Adult courses in course page*/
 #adult-div {
     display: inline-flex;
     flex-wrap: wrap;
@@ -253,26 +256,25 @@ header {
     height: auto;
     padding-top: 20px;
     padding-bottom: 20px;
-    
- }
+}
 #adult-title {
     font-size: 30px;
- }
+}
 #adult-c__par{
     font-size: 16px;
     margin-right: 40px;
     margin-left: 20px;
     text-align: justify;
     margin-bottom: 40px;
- }
+}
 #adult-image {
     float: left;
     margin: 20px;
     width: 300px;
     height:auto;
     position: relative;
- }
-
+}
+/*Kid courses in course page*/
  #kid-div {
     display: flex;
     flex-wrap: wrap;
@@ -280,75 +282,72 @@ header {
     height: auto;
     padding-top: 20px;
     padding-bottom: 20px;
-    
- }
+}
 #kid-title {
     font-size: 30px;
     margin-left: 20px;
- }
+}
 #kid-div h2 {
     margin-left: 20px;
- }
-
+}
 #kid-c__par{
     font-size: 16px;
     margin-right: 40px;
     margin-left: 20px;
     text-align: justify;
     margin-bottom: 40px;
- }
+}
 #kid-image {
     float: right;
     margin: 20px;
     width: 300px;
     height: auto;
     position: relative;
- }
- #portfolio-div {
+}
+/*Portfolio and kickstart business course in course page*/
+#portfolio-div {
     display: flex;
     flex-wrap: wrap;
     background-color: #FFD0D0;
     height: auto;
     padding-top: 20px;
     padding-bottom: 20px; 
- }
+}
 #portfolio-title {
     font-size: 30px;
     margin-left: 20px;
- }
+}
 #portoflio-course h2 {
     margin-left: 20px;
- }
-
+}
 #portfolio-c__par{
     font-size: 16px;
     margin-right: 40px;
     margin-left: 20px;
     text-align: justify;
     margin-bottom: 40px;
- }
+}
 #portfolio-image {
     float: left;
     margin: 20px;
     width: 300px;
     height: auto;
     position: relative;
- }
+}
+/*Summaries in the course page*/
 #summary_item1, #summary_item2, #summary_item3 {
     margin-left: 20px;
     text-transform: uppercase;
- }
+}
 #summary_item1, #summary_item3 {
     background-color: #FF9EAA;
     padding: 10px 10px 10px 10px;
-
- }
- #summary_item2 {
+}
+#summary_item2 {
     background-color: #3AA6B9;
     padding: 10px 10px 10px 10px;
- }
-
-
+}
+/*Form section in the contact page*/
 .form-section {
     clear: left;
     background-image: url('../images/background.jpg');
@@ -367,7 +366,6 @@ header {
     padding-top: 10px;
     border-radius: 5%;
 }
-
 .submit{
     color: white;
     background-color: #FF9EAA;
@@ -389,10 +387,8 @@ input[type="text"], input[type="email"] {
     width: 90%;
     height: 200px;
 }
-
-
+/*Media Queries*/
 @media (min-width: 320px) and (max-width: 480px) {
-
     #logo {
         text-align:left;
         text-transform: uppercase;
@@ -400,24 +396,22 @@ input[type="text"], input[type="email"] {
         font-size: 35px;
         margin-left: 20px;
         margin-top: 20px;
-    }
-
-    .grid-container { 
+   }
+    .grid-container {
         display: block;
-        padding: 10px;  
-    }
+        padding: 10px;
+   }
     .grid-container2 {
         display: block;
         background-color: #C1ECE4;
         padding-top: 30px;
         padding-bottom: 30px;
-    }
+   }
     #menu {
         font-size: small;
         letter-spacing: 2px;
         color: white;
-    }
-    
+   }
     #menu li {
         float: right;
         background-color: #3AA6B9;
@@ -428,67 +422,66 @@ input[type="text"], input[type="email"] {
         text-align: center;
         list-style-type:none;
         border-radius: 10px;
-        }
+   }
     .form-section {
-     clear: left;
-     background-image: url('../images/background.jpg');
-     background-size: cover;
-     background-position: center;
-     height: 1300px;
-}
+        clear: left;
+        background-image: url('../images/background.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 1300px;
+   }
     #form-fill {
-    float: left;
-    width: 80%;
-    height: auto;
-    background-color: #FFD0D0;
-    margin: 50px 0px 0px 20px;
-    padding-left: 20px;
-    padding-bottom: 20px;
-    padding-top: 10px;
-    border-radius: 5%;
-}
-input[type="text"], input[type="email"] {
-    width: auto;
-}
-#message {
-    width: auto;
-    height: 200px;
-}
-#adult-title {
-    width: auto;
-    margin-left: 20px;
-}
-#course_item1 h2{
-    margin-left: 20px;
-}
-#adult_div {
-    width: 100vh;
-}
-#portfolio-div h2 {
-    margin-left: 20px;
- }
-#adult-image {
-    float: left;
-    margin: 10px;
-    width: 93%;
-    height:auto;
-    position: relative;
- }
-#kid-image {
-    float: right;
-    margin: 10px;
-    width: 93%;
-    height: auto;
-    position: relative;
-}
-#portfolio-image {
-    float: left;
-    margin: 10px;
-    width: 93%;
-    height: auto;
-    position: relative;
- }
-
+        float: left;
+        width: 80%;
+        height: auto;
+        background-color: #FFD0D0;
+        margin: 50px 0px 0px 20px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        padding-top: 10px;
+        border-radius: 5%;
+   }
+    input[type="text"], input[type="email"] {
+        width: auto;
+   }
+    #message {
+        width: auto;
+        height: 200px;
+   }
+    #adult-title {
+        width: auto;
+        margin-left: 20px;
+   }
+    #course_item1 h2{
+        margin-left: 20px;
+   }
+    #adult_div {
+        width: 100vh;
+   }
+    #portfolio-div h2 {
+        margin-left: 20px;
+   }
+    #adult-image {
+        float: left;
+        margin: 10px;
+        width: 93%;
+        height:auto;
+        position: relative;
+   }
+    #kid-image {
+        float: right;
+        margin: 10px;
+        width: 93%;
+        height: auto;
+        position: relative;
+   }
+    #portfolio-image {
+        float: left;
+        margin: 10px;
+        width: 93%;
+        height: auto;
+        position: relative;
+   }
 }
 
 @media (min-width: 1025px) and (max-width: 1280px) {
@@ -533,7 +526,6 @@ input[type="text"], input[type="email"] {
     }
     .image__title {
     text-align: center;
-
     }
     #menu li{
         float: right;
@@ -564,7 +556,6 @@ input[type="text"], input[type="email"] {
         letter-spacing: 2px;
         color: white;
     }
-    
     #menu li {
         float: right;
         background-color: #3AA6B9;
@@ -597,7 +588,6 @@ input[type="text"], input[type="email"] {
     }
     .image__title {
     text-align: center;
-
     }
     #menu li{
         float: right;
