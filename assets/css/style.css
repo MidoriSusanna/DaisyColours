@@ -9,7 +9,7 @@
 h1, h2 {
     font-family: 'Diphylleia', serif;
     font-weight:300;
-    color:#3AA6B9;
+    color:#333F48;
 }
 body {
     font-family: 'Manrope', sans-serif;
@@ -30,16 +30,16 @@ header {
 }
 #logo a {
     text-decoration: none;
-    color: #3AA6B9;
+    color: #333F48;
 }
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
-    color: white;
+    color: #333F48;
 }
 #menu li{
     float: right;
-    background-color: #3AA6B9;
+    background-color: #333F48;
     padding: 8px;
     margin-right: 20px;
     margin-bottom: 40px;
@@ -111,22 +111,22 @@ header {
     height: auto;
 }
 .core-principles h1 {
-    color: #3AA6B9;
+    color: #333F48;
     text-align: center;
     font-weight: 200;
     font-size: 40px;
     text-transform: uppercase;
 }
 .core-principles h1,h2{
-    color: #3AA6B9;
+    color: #333F48;
     margin-bottom: 15px;
 }
 .core-principles p{
-    color: #3AA6B9;
+    color: #333F48;
     font-size: 18px;
 }
 .container2 #main-title {
-    color: #3AA6B9;
+    color: #333F48;
     background-color: #FFD0D0;
     text-align: center;
     padding-top: 20px;
@@ -246,7 +246,7 @@ footer {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
-    color: #3AA6B9;
+    color: #333F48;
 }
 /*Adult courses in course page*/
 #adult-div {
@@ -367,7 +367,7 @@ footer {
     border-radius: 5%;
 }
 .submit{
-    color: white;
+    color: #333F48;
     background-color: #FF9EAA;
     padding: 10px 10px 10px 10px;
     border-radius: 10%;
