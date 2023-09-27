@@ -527,7 +527,7 @@ input[type="text"], input[type="email"] {
     }
     #menu li{
         float: right;
-        background-color: #3AA6B9;
+        background-color: #333F48;
         padding: 8px;
         margin-right: 20px;
         margin-top: 10px;
@@ -555,7 +555,7 @@ input[type="text"], input[type="email"] {
     }
     #menu li {
         float: right;
-        background-color: #3AA6B9;
+        background-color: #333F48;
         padding: 8px;
         margin-right: 20px;
         margin-top: 40px;
@@ -588,7 +588,7 @@ input[type="text"], input[type="email"] {
     }
     #menu li{
         float: right;
-        background-color: #3AA6B9;
+        background-color: #333F48;
         padding: 8px;
         margin-right: 20px;
         margin-bottom: 20px;
