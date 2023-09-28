@@ -97,7 +97,23 @@ Fixed errors:<br>
 No more issues found, the code passed the validator with no errors.<br> 
 
 <br>The website is responsive on different screen sizes, layout adapted to different media queries.<br>
+<br>
 
+Lighthouse report shows optimal results for all pages (index.html, courses.html, contact.html): <br>
+<image src="./assets/images/lighthouse-index.png">
+<br>
+<image src="./assets/images/lighthouse-courses.png">
+<br>
+<image src="./assets/images/lighthouse-contact.png">
+<br>
+<br>
+
+All contrast issues have been fixed by adjusting the colour palette and adding a darker shade to improve accessibility: 
+Charcoal <br>
+CMYK 75/58/50/30 <br>
+RGB 51/63/72 <br>
+HEX #333F48 <br>
+Index.html, courses.html and contact.html pass through https://wave.webaim.org without any contrast issue. <br>
 
 </p>
 <h1>Deployment</h1>
@@ -112,10 +128,13 @@ The deployed website can be found at this link: https://midorisusanna.github.io/
 <h1>Credits</h1>
 <h2>Design and colours</h2>
 <p>Colour palette: https://colorhunt.co <br>
-Project of wireframe and logo through Adobe Indesign. Project and logo development through palette colours: <br>
+Project of wireframe and logo through Adobe Illustrator. Project and logo development through palette colours: <br>
 <image src="./assets/images/wireframe1.png">
 <image src="./assets/images/wireframe2.jpg">
 <image src="./assets/images/wireframe3.jpg"> <br>
+<br>
+The colour #3AA6B9 has been mostly substituted with a darker colour #333F48 to improve accessibility and remove contrast issues. <br>
+
 Icons: https://fontawesome.com <br>
 Fonts: https://fonts.google.com</p>
 <h2>Contents</h2>
@@ -132,7 +151,7 @@ Overlay: https://www.youtube.com/watch?v=exb2ab72Xhs&t=3s <br>
 Use of the flexbox: https://css-tricks.com/snippets/css/a-guide-to-flexbox/ <br>
 Use of grids: https://www.w3schools.com/css/css_grid.asp <br>
 Media Queries: https://gist.github.com/gokulkrishh/242e68d1ee94ad05f488 <br>
-Psd Mockup <a href="https://www.freepik.com/free-psd/isolated-tablet-laptop-smartphone-composition_40505824.htm#query=device%20mockup&position=0&from_view=keyword&track=ais">Image by Vectonauta</a> on Freepik <br>
+Mockup/Responsiveness: https://ui.dev/amiresponsive <br>
 The student support has been incredibly helpful. <br>
 Some references are from the Essential Love Running previous Project. <br>
 Thank you to my mentor for the advice provided. 
