@@ -100,15 +100,18 @@ No more issues found, the code passed the validator with no errors.<br>
 <br>
 
 Lighthouse report shows optimal results for all pages (index.html, courses.html, contact.html): <br>
+Index.html <br>
 <image src="./assets/images/lighthouse-index.png">
 <br>
+Courses.html <br>
 <image src="./assets/images/lighthouse-courses.png">
 <br>
+Contact.html <br>
 <image src="./assets/images/lighthouse-contact.png">
 <br>
 <br>
 
-All contrast issues have been fixed by adjusting the colour palette and adding a darker shade to improve accessibility: 
+All contrast issues have been fixed by adjusting the colour palette and adding a darker shade to improve accessibility: <br>
 Charcoal <br>
 CMYK 75/58/50/30 <br>
 RGB 51/63/72 <br>
